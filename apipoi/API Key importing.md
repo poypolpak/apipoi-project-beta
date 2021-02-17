@@ -1,4 +1,4 @@
-## Input API Key and API Secret
+## Inputting API Key and API Secret
 * The file `api_key.py` is where API Key and API Secret is stored
 * Simply input your key into `test_net()` function
 * If you only want to study and do research about crypto market, the API key from binance-testnet is a good place to start
@@ -10,3 +10,6 @@ def test_net():
     api_secret = 'Input your API Secret here'
     return api_key, api_secret
 ```
+
+## Accessing market data and account
+* The function `client_test_net()` will be used throughout this code to access market data and do analysis
