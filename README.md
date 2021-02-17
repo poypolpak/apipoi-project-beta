@@ -1,2 +1,2 @@
 # apipoi-project-beta
-Trading bot on python language for binance API wrapper.
+Trading bot in python language for binance API wrapper.
