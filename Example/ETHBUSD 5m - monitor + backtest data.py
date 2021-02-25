@@ -28,9 +28,8 @@ while True:
             t_lag = t2 - t1
             time.sleep(60 - t_lag)
 
-        except ConnectionError:
-            print('Connection error nanodesu')
-        except:
+        except Exception as e:
             print('Something went wrong at {}H {}m'.format(obj[3], obj[4]))
+            print(type(e), type(e).__qualname__)
             
     time.sleep(60)
