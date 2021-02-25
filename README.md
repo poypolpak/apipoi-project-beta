@@ -1,2 +1,2 @@
 # apipoi-project-beta
-Trading bot in python language for python-binance module.
+Simple trading bot in python language for python-binance module.
